@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="sim" class="com.SpringApp.Airtel"> 
+        <property name="id" value="12"></property>
+        <property name="name" value="airtel"></property>
+        </bean>
+        <bean id="jio" class="com.SpringApp.Jio">
+        <property name="id" value="32">
+        </property>
+        <property name="name" value="jio"></property>
+        
+        </bean>
+        
+
+</beans>
